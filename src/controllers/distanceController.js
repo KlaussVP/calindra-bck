@@ -11,27 +11,35 @@ class DistanceController {
   }
 
   getFurther(distances) {
-    let further = distances[0].dist;
+    let further = Number.parseFloat(distances[0].dist.split(" ")[0]);
+    let furtherAddresses = distances[0].locations;
     
     for (let i = 1; i < distances.length; i++) {
-      if (distances[i].dist > further) {
-        further = distances[i].dist;
+      let compareDist = Number.parseFloat(distances[i].dist.split(" ")[0]);
+
+      if (compareDist > further) {
+        further = compareDist;
+        furtherAddresses = distances[i].locations;
       }
     }
 
-    return further;
+    return furtherAddresses;
   }
 
   getCloser(distances) {
-    let closer = distances[0].dist;
+    let closer = Number.parseFloat(distances[0].dist.split(" ")[0]);
+    let closerAddresses = distances[0].locations;
     
     for (let i = 1; i < distances.length; i++) {
-      if (distances[i].dist < closer) {
-        closer = distances[i].dist;
+      let compareDist = Number.parseFloat(distances[i].dist.split(" ")[0]);
+
+      if (compareDist < closer) {
+        closer = compareDist;
+        closerAddresses = distances[i].locations;
       }
     }
 
-    return closer;
+    return closerAddresses;
   }
 }
 

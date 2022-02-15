@@ -1,8 +1,8 @@
-export default function EuclideanDistance (coordenates) {
+function EuclideanDistance (coordenates) {
   let distances = [];
 
   for (let i = 0; i < coordenates.length - 1; i++) {
-    for (let j = 1; j < coordenates.length; j++) {
+    for (let j = i + 1; j < coordenates.length; j++) {
       let lat1 = coordenates[i].lat;
       let lng1 = coordenates[i].lng;
       let lat2 = coordenates[j].lat;
@@ -15,7 +15,7 @@ export default function EuclideanDistance (coordenates) {
 
       let finalCalc = sqrtSum ** 0.5;
       let distance = {
-        locations: [i,j],
+        locations: [coordenates[i].address, coordenates[j].address],
         dist: finalCalc
       }
 
@@ -25,3 +25,5 @@ export default function EuclideanDistance (coordenates) {
 
   return distances;
 }
+
+module.exports = EuclideanDistance;

@@ -1,0 +1,26 @@
+{
+  "name": "calindra-bck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development npx nodemon --watch \"src/**\" --ext \"js,json\" --exec \"node src/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KlaussVP/calindra-bck.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KlaussVP/calindra-bck/issues"
+  },
+  "homepage": "https://github.com/KlaussVP/calindra-bck#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}

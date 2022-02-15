@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 const distanceController = require("../controllers/distanceController");
 
-router.get('/', async (req, res) => {
+router.post('/', async (req, res) => {
   /*Assumindo: 
     req.body = {
       addresses: [

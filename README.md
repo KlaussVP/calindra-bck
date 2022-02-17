@@ -8,7 +8,7 @@
 
 ## About
 <p>
-  This project's only purpose is to respond to the challenge made by Calindra through an interview process. This is an API project that returns the distance in kilometers between two or more given addresses as well as the shortest and the furthest distance among the distances calculated. It won't have a browser interface. The link to direct requests is down below in the "Deploy" session.
+  This project's only purpose is to respond to the challenge made by Calindra through an interview process. This is an API project that returns the distance in kilometers between two or more given addresses as well as the shortest and the furthest distance among the distances calculated. It uses <a href="https://developers.google.com/maps/documentation/geocoding/start">Google's geocoding API</a> to convert addresses (like a street address) into geographic coordinates (like latitude and longitude). It won't have a browser interface. The link to direct requests is down below in the <a href="#deploy">Deploy</a> session.
 </p>
 
 <p align="center"><img src="public/images/processing.gif" width="80px"/></p>

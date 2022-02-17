@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/images/api.gif" width="150px" alt="Calindra-bck" />
+  <img src="public/images/api.gif" width="350px" alt="Calindra-bck" />
 </p>
 
 # Calindra-bck
@@ -43,7 +43,7 @@ Languages:<br>
   <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 </p>
-
+<br>
 
 The following tools and frameworks were used in the construction of the project:<br>
 <p align="center">
@@ -58,6 +58,7 @@ The following tools and frameworks were used in the construction of the project:
   <img style='margin: 5px;' src='https://badges.aleen42.com/src/node.svg'>
 </p>
 <br>
+
 Version Control:<br>
 <p align="center">
   <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>

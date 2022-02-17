@@ -69,13 +69,13 @@ Version Control:<br>
 
 ### Deploy
 
-The API is available on VercelApp through the following link: [Calindra-bck](https://calindra-bck-qpgsg53qw-klaussvp.vercel.app/)
+The API is available on Heroku through the following link: [Calindra-bck](https://git.heroku.com/calindra-bck.git)
 
 <br><br>
 ## Contributors
 <table>
   <tr>
-    <td align="center" style="margin-right: 20px;"><a href="https://github.com/vercel"><img src="https://avatars.githubusercontent.com/u/14985020?s=200&v=4" width="100px;" alt="Vercel"/><br /><sub><b>Vercel</b></sub></a><br />
+    <td align="center" style="margin-right: 20px;"><a href="https://github.com/heroku"><img src="https://avatars.githubusercontent.com/u/23211?s=200&v=4" width="100px;" alt="Heroku"/><br /><sub><b>Heroku</b></sub></a><br />
   </tr>
   <tr>
     <td align="center" style="margin-right: 20px;"><a href="https://github.com/googleapis"><img src="https://avatars.githubusercontent.com/u/16785467?s=200&v=4" width="100px;" alt="GoogleAPI"/><br /><sub><b>GoogleAPIs</b></sub></a><br />

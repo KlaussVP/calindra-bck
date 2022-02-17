@@ -69,7 +69,7 @@ Version Control:<br>
 
 ### Deploy
 
-The API is available on Heroku through the following link: [Calindra-bck](https://git.heroku.com/calindra-bck.git)
+The API is available on Heroku through the following link: [Calindra-bck](https://calindra-bck.herokuapp.com/)
 
 <br><br>
 ## Contributors

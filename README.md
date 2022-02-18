@@ -48,13 +48,8 @@ Languages:<br>
 The following tools and frameworks were used in the construction of the project:<br>
 <p align="center">
   <img style='margin: 5px;' src='https://badges.aleen42.com/src/npm.svg'>
-  <img style='margin: 5px;' src='https://badges.aleen42.com/src/webpack.svg'>
-  <img style='margin: 5px;' src='https://img.shields.io/badge/styled-components%20-%2320232a.svg?&style=for-the-badge&color=b8679e&logo=styled-components&logoColor=%3a3a3a'>
   <img style='margin: 5px;' src='https://img.shields.io/badge/axios%20-%2320232a.svg?&style=for-the-badge&color=informational'>
   <img style='margin: 5px;' src='https://img.shields.io/badge/babel%20-%2320232a.svg?&style=for-the-badge&color=323230&logo=babel&logoColor=%f4dc4e'>
-  <img style='margin: 5px;' src="https://badges.aleen42.com/src/react.svg"/>
-  <img style='margin: 5px;' src="https://img.shields.io/badge/react_route%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-  <img style='margin: 5px;' src='https://img.shields.io/badge/react-icons%20-%2320232a.svg?&style=for-the-badge&color=f28dc7&logo=react-icons&logoColor=%2361DAFB'>
   <img style='margin: 5px;' src='https://badges.aleen42.com/src/node.svg'>
 </p>
 <br>
@@ -69,7 +64,18 @@ Version Control:<br>
 
 ### Deploy
 
-The API is available on Heroku through the following link: [Calindra-bck](https://calindra-bck.herokuapp.com/)
+The API is available on Heroku through the following link: [Calindra-bck](https://calindra-bck.herokuapp.com/)<br><br>
+
+<i>Obs.: The method of the request is a POST and it has to have a body in the json format with the following structure:</i>
+```
+{
+    "addresses": [
+        "Av. Rio Branco, 1 Centro, Rio de Janeiro RJ, 20090 003", 
+        "Praça Mal. Âncora, 122 Centro, Rio de Janeiro RJ, 20021 200",
+        "Rua 19 de Fevereiro, 34 Botafogo, Rio de Janeiro RJ, 22280 030"
+    ]
+}
+```
 
 <br><br>
 ## Contributors

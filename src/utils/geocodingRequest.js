@@ -14,7 +14,7 @@ async function geocodingRequest(params) {
     };
   }).catch(err => {
     if (err) {
-      console.log("Ocorreu um erro. Tente novamente.");
+      console.log(err);
     }
   });
 
